@@ -14,7 +14,14 @@ The system:
 3. Converts text chunks into **vector embeddings** using `sentence-transformers/all-MiniLM-L6-v2`.
 4. Stores and retrieves vectors using an **in-memory Chroma** vector store.
 5. Queries a **Groq LLM** to generate natural-language answers based on retrieved context.
-6. Outputs a stru## ⚙️ Installation
+6. Outputs a structured JSON containing:
+   - `answer`: a short, natural-language answer  
+   - `contexts`: retrieved plot snippets  
+   - `reasoning`: a brief explanation of how the answer was formed  
+
+---
+
+## ⚙️ Installation
 
 ### 1️⃣ Clone the repository
 ```bash
