@@ -18,11 +18,8 @@ The system:
 
 ### 1️⃣ Clone the repository
 ```bash
-git clone https://github.com/<your-username>/mini-rag-movie-plots.git
-cd mini-rag-movie-plotsctured JSON containing:
-   - `answer`: a short, natural-language answer  
-   - `contexts`: retrieved plot snippets  
-   - `reasoning`: a brief explanation of how the answer was formed
+git clone https://github.com/Thathsarani-Sandarekha/mini_rag_movies.git
+
 ```
 
 ---
